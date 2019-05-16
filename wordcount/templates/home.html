@@ -1,0 +1,56 @@
+<style>
+  body{
+    background-color: black;
+    color:green;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 300;
+    font-style: oblique;
+    
+    margin-left:500px;
+    
+    padding-bottom: 20%;
+    
+}
+
+a{
+
+    color:green;
+    margin-left: 600px;
+    margin-bottom: 400px;
+}
+
+textarea{
+border-color: green;
+margin-left: 600px;
+}
+
+input{
+    margin-left:725;
+    border-image: space;
+    border-color: chartreuse;
+}
+</style> 
+<link rel="stylesheet" href="fast.css">
+ <h1>글자수 세기</h1>
+     
+    
+
+  <a href="{%url 'about'%}" name="about">ABOUT</a>
+
+
+<form action="{%url 'result'%}">
+  <textarea cols="40" rows="10" name="fulltext"></textarea>
+  <br>
+  <input type="submit" value="Count!">
+</form>
+
+
+
+
+
+
+
+
